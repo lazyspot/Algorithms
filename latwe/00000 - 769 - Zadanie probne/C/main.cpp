@@ -1,12 +1,11 @@
-#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
 
-using namespace std;
-
-int main(int argc, char *argv[])
+int main()
 {
-    int i, j;
-    cin>>i;
-    cin>>j;
-    cout<<i+j<<endl;
+    int a,b;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf("%d",a+b);
     return 0;
 }
