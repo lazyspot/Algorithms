@@ -6,22 +6,22 @@ using namespace std;
 
 int main()
 {
-int x, y, temp;
-vector <int> liczby;
-scanf("%d",&x);
-for (int i=0; i<x; i++)
+int t, y, temp;
+vector <int> numbers;
+scanf("%d",&t);
+for (int i=0; i<t; i++)
 {
     scanf("%d",&y);
     for (int j=0; j<y; j++)
     {
         scanf("%d",&temp);
-        liczby.push_back(temp);
+        numbers.push_back(temp);
     }
-    for (int k=liczby.size()-1; k<=liczby.size(); k--)
+    for (int k=numbers.size()-1; k<=numbers.size(); k--)
     {
-        printf("%d ",liczby[k]);
+        printf("%d ",numbers[k]);
     }
-    liczby.clear();
+    numbers.clear();
     puts("");
 }
     return 0;
