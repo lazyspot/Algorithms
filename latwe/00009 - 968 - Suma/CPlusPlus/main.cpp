@@ -9,8 +9,8 @@ int main()
     int i, j=0, k;
     while(scanf("%d", &i) != EOF)
     {
-            j+=i;
-            cout<<j<<endl;
+        j+=i;
+        cout<<j<<endl;
     }
     return 0;
 }
