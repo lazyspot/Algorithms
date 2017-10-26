@@ -8,10 +8,10 @@ def nww(x,y):
         y = y + c
         if y%x == 0:
             return y
-zest = int(raw_input(''))
-for i in range(0, zest, +1):
-    dane = (raw_input('')).split(' ')
-    a = int(dane[0])
-    b = int(dane[1])
-    wyn = nww(a,b)
-    print wyn
+N = int(raw_input(''))
+for i in range(0, N, +1):
+    data = (raw_input('')).split(' ')
+    a = int(data[0])
+    b = int(data[1])
+    output = nww(a,b)
+    print output
