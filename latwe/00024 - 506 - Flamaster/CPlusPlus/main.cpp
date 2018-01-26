@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdio>
 
 using namespace std;
 
@@ -23,8 +22,7 @@ int main()
                 {
                     ++q;
                 }
-                cout<<input[i];
-                cout<<q;
+                cout<<input[i]<<q;
                 i+=q;
                 --i;
 
