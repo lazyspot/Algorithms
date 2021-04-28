@@ -12,6 +12,6 @@ int main()
         cin>>value;
         measurements.insert(value);
     }
-    cout << pomiary_temperatury.size() << endl;
+    cout << measurements.size() << endl;
     return 0;
 }
