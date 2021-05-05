@@ -1,7 +1,6 @@
 #include <iostream>
-
 #include <cmath>
-//https://pl.spoj.com/problems/FR_AA_08/
+
 using namespace std;
 
 int main()
